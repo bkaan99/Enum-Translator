@@ -1,0 +1,2 @@
+    9	    EVET(1, "EVET", Durum.AKTIF),
+    10	    HAYIR(2, "HAYIR", Durum.AKTIF);

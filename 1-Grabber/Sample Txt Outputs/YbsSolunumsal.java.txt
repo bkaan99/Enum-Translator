@@ -1,0 +1,3 @@
+    10	    TAKIPNE(1, "Takipne", Durum.AKTIF),
+    11	    ARTMIS_OKSIJEN(2, "Artmış Oksijen", Durum.AKTIF),
+    12	    VENTILASYON_IHTIYACI(3, " Ventilasyon İhtiyacı", Durum.AKTIF);

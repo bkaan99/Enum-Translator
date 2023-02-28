@@ -1,0 +1,1 @@
+    10	    KUCUK_YUZBIN(1, "<100.000/ mm3", Durum.AKTIF);

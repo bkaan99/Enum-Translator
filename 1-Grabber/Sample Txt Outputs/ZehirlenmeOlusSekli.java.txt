@@ -1,0 +1,8 @@
+    9	    BESIN_ZEHIRLENMESI(1, "BESİN ZEHİRLENMESİ", Durum.AKTIF),
+    10	    CEVRESEL(2, "ÇEVRESEL", Durum.AKTIF),
+    11	    INTIHAR(3, "İNTİHAR", Durum.AKTIF),
+    12	    KAZA(4, "KAZA", Durum.AKTIF),
+    13	    MESLEKSEL(5, "MESLEKSEL", Durum.AKTIF),
+    14	    TERAPOTIK_HATA(6, "TERAPOTİK HATA", Durum.AKTIF),
+    15	    DIGER(98, "DİĞER", Durum.AKTIF),
+    16	    HAYIR(22, "HAYIR", Durum.PASIF);

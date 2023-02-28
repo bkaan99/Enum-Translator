@@ -1,0 +1,3 @@
+    10	    MEKANIK_VENTILASYON(1, "Mekanik ventilasyon ihtiyacı", Durum.AKTIF,2D),
+    11	    CPAP(2, "Sürekli pozitif hava yolu (CPAP) basıncı ihtiyacı veya >% 21 oksijen gereksinimi", Durum.AKTIF,1D),
+    12	    SPONTAN_SOLUNUM(3, "Spontan solunum", Durum.AKTIF,0D);
