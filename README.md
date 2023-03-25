@@ -6,7 +6,7 @@ Author: Bilge Kaan GÜRGEN
 
   
 
-Enum Dosyalarında ki Türkçe ifadelerin İngilizce olmasını için yapılmış Python Script Çalışması
+Enum Dosyalarında ki Türkçe ifadelerin İngilizce çeviri sonrası tekrar bozulmadan implement etmek için yapılmış Python Script Çalışması
 
   
   
