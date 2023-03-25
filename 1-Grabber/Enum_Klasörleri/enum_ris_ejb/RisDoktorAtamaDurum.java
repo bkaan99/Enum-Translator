@@ -1,6 +1,6 @@
-package tr.com.fonet.hbys.ris.ejb.rad.enums;
+package tr.com.ris.ejb.rad.enums;
 
-import tr.com.fonet.core.common.enums.base.DbEnum;
+import tr.com.core.common.enums.base.DbEnum;
 
 import java.io.Serializable;
 

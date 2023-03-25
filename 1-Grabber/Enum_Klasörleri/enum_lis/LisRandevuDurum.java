@@ -1,7 +1,7 @@
-package tr.com.fonet.hbys.lis.enums;
+package tr.com.lis.enums;
 
 import java.io.Serializable;
-import tr.com.fonet.core.common.enums.base.DbEnum;
+import tr.com.core.common.enums.base.DbEnum;
 
 public enum LisRandevuDurum implements DbEnum {
 
