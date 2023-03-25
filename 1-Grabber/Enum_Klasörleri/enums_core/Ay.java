@@ -1,7 +1,7 @@
-package tr.com.fonet.core.common.enums;
+package tr.com.core.common.enums;
 
 import java.io.Serializable;
-import tr.com.fonet.core.common.enums.base.DbEnum;
+import tr.com.core.common.enums.base.DbEnum;
 
 public enum Ay implements DbEnum {
 

@@ -1,12 +1,9 @@
-package tr.com.fonet.core.common.enums;
+package tr.com.core.common.enums;
 
 import java.io.Serializable;
-import tr.com.fonet.core.common.enums.base.DbEnum;
+import tr.com.common.enums.base.DbEnum;
 
-/**
- *
- * @author myalcinkaya
- */
+
 public enum ArsivTipi implements DbEnum {
     
     Gizli(1, "Arşivlenmeyecek Belgeler"),

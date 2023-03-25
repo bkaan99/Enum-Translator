@@ -1,18 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package tr.com.fonet.hbys.common.enums;
 
-import tr.com.fonet.core.common.enums.base.DbEnum;
+package tr.com.common.enums;
+
+import tr.com.core.common.enums.base.DbEnum;
 
 import java.io.Serializable;
 
-/**
- *
- * @author muysal
- */
+
 public enum AmeliyatPersonelGorevi implements DbEnum {
 
     DOKTOR(1, "Doktor"),

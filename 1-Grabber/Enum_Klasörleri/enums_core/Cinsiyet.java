@@ -1,8 +1,8 @@
-package tr.com.fonet.core.common.enums;
+package tr.com.core.common.enums;
 
 import java.io.Serializable;
-import tr.com.fonet.core.common.enums.base.DbEnum;
-import tr.com.fonet.core.common.utils.NumberUtils;
+import tr.com.common.enums.base.DbEnum;
+import tr.com.common.utils.NumberUtils;
 
 public enum Cinsiyet implements DbEnum {
 

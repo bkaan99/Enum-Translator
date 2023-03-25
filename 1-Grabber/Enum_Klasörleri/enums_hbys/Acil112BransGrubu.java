@@ -1,13 +1,10 @@
-package tr.com.fonet.hbys.common.enums;
+package tr.com.common.enums;
 
-import tr.com.fonet.core.common.enums.base.DbEnum;
+import tr.com.common.enums.base.DbEnum;
 
 import java.io.Serializable;
 
-/**
- *
- * @author sgozmen
- */
+
 public enum Acil112BransGrubu implements DbEnum {
 
     ACIL_ERISKIN(1, "Acil Erişkin"),
