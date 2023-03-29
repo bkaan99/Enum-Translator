@@ -3,6 +3,7 @@
 
 # Enum Lang Converter
 Author: Bilge Kaan GÜRGEN
+Co-Author: Gökberk Eser
 
   
 
