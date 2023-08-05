@@ -31,9 +31,6 @@ print("\nDF silme işleminden sonra boyutu = ",df.shape, "\n")
 
 df.to_excel('deletor_final.xlsx', index = False) 
 
-#print("DF\n",df.head(),"\n")
-#print("Col 2\n",col2.head(),"\n")
-#print("Col 3\n",col3.head(),"\n")
 
 
 
