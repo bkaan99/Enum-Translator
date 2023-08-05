@@ -19,12 +19,11 @@ sheet = wb2["Sheet1"]
 for i in range(1, sheet.max_row + 1):
     col2_value = sheet.cell(row=i, column=2).value 
     col4_value = sheet.cell(row=i, column=4).value
-    if col2_value:
-        if(col2_value.find('""') != -1):
-            print(col4_value)
-            col2_value=col2_value.replace('""', '"'+col4_value+'"')
-            print(col2_value+"\n")          
+    if col2_value and (col2_value.find('""') != -1):
+        print(col4_value)
+        col2_value=col2_value.replace('""', '"'+col4_value+'"')
+        print(col2_value+"\n")          
     
-            sheet.cell(row=i, column=2).value = col2_value
+        sheet.cell(row=i, column=2).value = col2_value
 print("\n----------> Üstteki ingilizce String İfade Alttaki '""' arasındaki Türkçe ifadenin olduğu yere yazıldı.<---------- \n")
 wb2.save("Enum_Core DONE_replaced.xlsx")
