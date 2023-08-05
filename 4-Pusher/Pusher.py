@@ -2,7 +2,7 @@ import openpyxl
 import os
 
 # Excel dosyasını yükle
-wb = openpyxl.load_workbook('enum_core\Enum_Core DONE_replaced-Copy.xlsx') 
+wb = openpyxl.load_workbook(r'enum_core\Enum_Core DONE_replaced-Copy.xlsx') 
 sheet = wb.active # Aktif sayfayı seç. (Excel dosyasındaki ilk sayfa) 
 
 # Excel dosyasındaki her satır için döngü
