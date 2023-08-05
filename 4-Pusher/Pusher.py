@@ -1,5 +1,4 @@
 import openpyxl
-import os
 
 # Excel dosyasını yükle
 wb = openpyxl.load_workbook(r'enum_core\Enum_Core DONE_replaced-Copy.xlsx') 
