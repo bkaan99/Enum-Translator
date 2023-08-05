@@ -4,8 +4,6 @@ import os
 APP_PATH = os.path.dirname(os.path.abspath(__file__))
 # Excel dosyasını oku
 df = pd.read_excel(os.path.join(APP_PATH, "Data", r"C:\Users\kaan.gurgen\Desktop\deletionexcel\deletor_final.xlsx"),engine='openpyxl')
-
-print
 # Eşleşen satırları tutmak için boş bir liste oluşturun
 matched_rows = []
 
