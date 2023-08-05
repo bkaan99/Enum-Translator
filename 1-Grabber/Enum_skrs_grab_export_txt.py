@@ -17,10 +17,10 @@ for dosya_adi in os.listdir(dosya_yolu): # klasördeki dosyaları dolaş
         dosya_yolu_adi = os.path.join(dosya_yolu, dosya_adi) # dosya yolunu oluştur.
     with open(dosya_yolu_adi, "r", encoding="utf-8") as dosya: # dosyayı oku.
         icerik = dosya.readlines() # dosyayı satır satır oku.
-    for i in range(len(icerik)): # dosyayı satır satır dolaş
-        if baslangic in icerik[i]: # başlangıç satırını bul
+    for i, item in enumerate(icerik): # dosyayı satır satır dolaş
+        if baslangic in item: # başlangıç satırını bul
             start_index = i + 1 # başlangıç satırının bir sonraki satırı
-        if bitis in icerik[i]: # bitiş satırını bul
+        if bitis in item: # bitiş satırını bul
             end_index = i - 1 # bitiş satırının bir önceki satırı
             while icerik[end_index].startswith("//") or not icerik[end_index].strip(): # bitiş satırının bir önceki satırı yorum satırı veya boş satır ise bir önceki satırı bulana kadar dön
                 end_index -= 1 # bir önceki satırı bulana kadar dön
